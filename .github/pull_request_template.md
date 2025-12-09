@@ -5,7 +5,7 @@ This PR ...
 ## Tickets
 <!-- Mention all closed tickets -->
 Closes the following:
-- reformai.atlassian.net/browse/REF-xxxx
+- https://reformai.atlassian.net/browse/REF-xxxx
 
 ## Security checklist
 <!-- Make sure everything in the checklist is checked -->
