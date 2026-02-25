@@ -1,6 +1,6 @@
 ## Description
 <!-- Briefly explain what this PR does -->
-This PR ...
+This PR …
 
 ## Tickets
 <!-- Mention all closed tickets -->
