@@ -39,6 +39,9 @@ def find_codeowners(root: Path) -> list[Path]:
         if not child.is_dir():
             continue
         candidate = child / ".github" / "CODEOWNERS"
+        if candidate.parent.is_symlink() or candidate.is_symlink():
+            print(f"Skipping symlinked {candidate}", file=sys.stderr)
+            continue
         if candidate.is_file():
             found.append(candidate)
     return found
